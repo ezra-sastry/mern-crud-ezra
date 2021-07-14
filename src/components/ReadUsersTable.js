@@ -4,7 +4,7 @@ const ReadUsersTable = props => (
     <table>
         <thead>
             <tr>
-                <th>Name</th>
+                <th>Read</th>
                 <th>Actions</th>
             </tr>
         </thead>
