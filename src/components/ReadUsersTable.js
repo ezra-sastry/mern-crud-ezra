@@ -5,7 +5,7 @@ const ReadUsersTable = props => (
         <thead>
             <tr>
                 <th>Read</th>
-                <th>Actions</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
