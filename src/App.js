@@ -61,6 +61,7 @@ const App = () => {
     const deleteUser = id => {
         Axios.delete(`https://mern-crud-ezra.herokuapp.com/delete/${id}`)
         .then(() => {
+            setUpdate(false)
             setUsers(users.filter(user => user._id !== id))
         })
     }
