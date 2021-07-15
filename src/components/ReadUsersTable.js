@@ -29,7 +29,7 @@ const ReadUsersTable = props => (
                 ))
             ) : (
                 <tr>
-                    <td>No Users</td>
+                    <td>No Data</td>
                 </tr>
             )}
         </tbody>
